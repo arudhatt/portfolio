@@ -5,6 +5,8 @@ import Image from "next/image";
       <Image
         src="/profile.jpg"
         alt="This is an image"
+        height={900}
+        width={900}
       />
     );
   }
