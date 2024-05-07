@@ -20,6 +20,7 @@ To read more about using these font, please visit the Next.js documentation:
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import Link from "next/link"
 import Image from "next/image";
+import profilePic from '../public/profile.jpg'
 
 export function About() {
   return (
@@ -37,7 +38,7 @@ export function About() {
             </p>
           </div>
           <Image
-            src="/profile.jpg"
+            src={profilePic}
             alt="Arminder Kaur"
             className="rounded-full w-32 h-32 md:w-40 md:h-40"
             style={{
