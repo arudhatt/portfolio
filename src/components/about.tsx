@@ -37,7 +37,7 @@ export function About() {
             </p>
           </div>
           <img
-            src="./public/profile.jpg"
+            src="./blob/main/public/profile.jpg"
             alt="Arminder Kaur"
             className="rounded-full w-32 h-32 md:w-40 md:h-40"
             style={{
