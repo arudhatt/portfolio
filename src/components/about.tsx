@@ -77,7 +77,7 @@ export function About() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                The primary objective of this project is to extract actionable insights from the Airbnb dataset through exploratory analysis.
+                The primary objective of this project is to extract actionable insights from the Airbnb dataset through exploratory analysis. It explores the relatioships between various aspects like price, location, amenities and the user experience. Then, it predicts price using XGBoost and CatBoost.
                 </p>
                 <div className="flex gap-2">
                   <Link href="https://github.com/arudhatt/airbnb_data_analysis/blob/main/Airbnb.ipynb" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
