@@ -41,7 +41,7 @@ export function About() {
             alt="Arminder Kaur"
             className="rounded-full w-32 h-32 md:w-40 md:h-40"
             style={{
-              aspectRatio: "200/200",
+              aspectRatio: "400/400",
               objectFit: "cover",
             }}
             width="400"
@@ -149,7 +149,7 @@ export function About() {
           <h2 className="text-3xl font-bold mb-6">Skills</h2>
           <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             <li className="bg-gray-200 dark:bg-gray-800 rounded-md px-4 py-2 text-gray-700 dark:text-gray-300">
-              Data Mining
+              Data Analysis
             </li>
             <li className="bg-gray-200 dark:bg-gray-800 rounded-md px-4 py-2 text-gray-700 dark:text-gray-300">
               Business Intelligence
@@ -173,13 +173,16 @@ export function About() {
               Predictive Analytics
             </li>
             <li className="bg-gray-200 dark:bg-gray-800 rounded-md px-4 py-2 text-gray-700 dark:text-gray-300">
-              Quantitative Analysis
+              Software Development
             </li>
             <li className="bg-gray-200 dark:bg-gray-800 rounded-md px-4 py-2 text-gray-700 dark:text-gray-300">
               Problem Solving
             </li>
             <li className="bg-gray-200 dark:bg-gray-800 rounded-md px-4 py-2 text-gray-700 dark:text-gray-300">
               Team Collaboration
+            </li>
+            <li className="bg-gray-200 dark:bg-gray-800 rounded-md px-4 py-2 text-gray-700 dark:text-gray-300">
+              Tableau
             </li>
           </ul>
         </section>
