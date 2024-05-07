@@ -44,8 +44,8 @@ export function About() {
               aspectRatio: "200/200",
               objectFit: "cover",
             }}
-            width="200"
-            height="200"
+            width="400"
+            height="400"
            
           />
         </section>
@@ -58,34 +58,88 @@ export function About() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Predicted the outcome of COVID cases using Keras, sklearn, and matplotlib to analyze and clean Ontario
+                  This project predicts the outcome of COVID cases using Keras, sklearn, and matplotlib to analyze and clean Ontario
                   COVID dataset. Explored different architectures of DNNs and RNNs to predict the outcome of each case.
                 </p>
                 <div className="flex gap-2">
-                  <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                  <Link href="https://github.com/arudhatt/covid-case-prediction-using-machine-learning/blob/main/Covid.ipynb" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
                     GitHub
                   </Link>
-                  <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                  {/* <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500"> 
                     Live Demo
-                  </Link>
+                  </Link> */}
                 </div>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Fake News Detection</CardTitle>
+                <CardTitle>AirBnB Data Analysis</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Used fake news detection dataset to train data model to predict whether a news article is real or fake.
+                The primary objective of this project is to extract actionable insights from the Airbnb dataset through exploratory analysis.
                 </p>
                 <div className="flex gap-2">
-                  <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                  <Link href="https://github.com/arudhatt/airbnb_data_analysis/blob/main/Airbnb.ipynb" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
                     GitHub
                   </Link>
-                  <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                  {/* <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
                     Live Demo
+                  </Link> */}
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Sentiment Analysis</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                This projects delves into Qatar Airways customer reviews to analyze overall sentiment. This sentiment analysis of customer feedback can be used identify areas necessitating enhancement and to optimize the overall passenger experience.
+                </p>
+                <div className="flex gap-2">
+                  <Link href="https://github.com/arudhatt/sentiment_analysis/blob/main/qatar_airways_analysis.ipynb" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                    GitHub
                   </Link>
+                  {/* <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                    Live Demo
+                  </Link> */}
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Flight Data Visualization</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                This projects provides geo spatial visualization for flight routes, key airports, departure and arrival of flights, etc. Plotly framework has been used to provide interactive plots.
+                </p>
+                <div className="flex gap-2">
+                  <Link href="https://github.com/arudhatt/flight-data-visualization/blob/main/flight_travel_visualization.ipynb" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                    GitHub
+                  </Link>
+                  {/* <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                    Live Demo
+                  </Link> */}
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Immigration and Refugee Data Analysis</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                This project uses SQL to analyze data available in multiple files. All the data is loaded into MySQL database, the SQL is used to join and fetch data from multiple tables.
+                </p>
+                <div className="flex gap-2">
+                  <Link href="https://github.com/arudhatt/flight-data-visualization/blob/main/flight_travel_visualization.ipynb" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                    GitHub
+                  </Link>
+                  {/* <Link href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500">
+                    Live Demo
+                  </Link> */}
                 </div>
               </CardContent>
             </Card>
